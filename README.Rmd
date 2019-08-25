@@ -39,7 +39,7 @@ mie_df <- jsonlite::fromJSON(jsonlite::toJSON(mie_js))
 
 # Exportar
 ```{r}
-usrgh <- sort(unlist(c(col_df$login, mie_df$login)))
+usrgh <- sort(unlist(c(paste(col_df$login, '(C)'), paste(mie_df$login, '(M)'))))
 cat(
   'En fecha/hora: ',
   date(),
