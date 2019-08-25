@@ -39,7 +39,15 @@ mie_df <- jsonlite::fromJSON(jsonlite::toJSON(mie_js))
 
 # Exportar
 ```{r}
-usrgh <- unlist(c(col_df$login, mie_df$login))
+usrgh <- sort(unlist(c(col_df$login, mie_df$login)))
+cat(
+  'En fecha/hora: ',
+  date(),
+  ', aparecían como registradas', '\n',
+  'las siguientes cuentas como miembros/as o colaboradores externos/as: ', '\n',
+  paste(usrgh, collapse = '\n'),
+  sep = ''
+)
 write(usrgh, 'suscripciones_github.txt')
 ```
 
