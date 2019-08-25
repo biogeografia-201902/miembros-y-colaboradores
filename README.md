@@ -47,7 +47,7 @@ Exportar
 ========
 
 ``` r
-usrgh <- sort(unlist(c(col_df$login, mie_df$login)))
+usrgh <- sort(unlist(c(paste(col_df$login, '(C)'), paste(mie_df$login, '(M)'))))
 cat(
   'En fecha/hora: ',
   date(),
@@ -58,24 +58,24 @@ cat(
 )
 ```
 
-    ## En fecha/hora: Sun Aug 25 17:39:44 2019, aparecían como registradas
+    ## En fecha/hora: Sun Aug 25 19:51:45 2019, aparecían como registradas
     ## las siguientes cuentas como miembros/as o colaboradores externos/as: 
-    ## AbigailCP
-    ## BidelkisCastillo
-    ## dahianagb07
-    ## enrique193
-    ## Erasbel05
-    ## geofis
-    ## hoyodepelempito
-    ## jimenezsosa
-    ## Jorge-Mutonen
-    ## Mangoland
-    ## maritzafg
-    ## merali-rosario
-    ## ramosramos1886
-    ## sanchez26
-    ## victorcabsid
-    ## yanderlin
+    ## AbigailCP (C)
+    ## BidelkisCastillo (C)
+    ## dahianagb07 (M)
+    ## enrique193 (M)
+    ## Erasbel05 (C)
+    ## geofis (M)
+    ## hoyodepelempito (M)
+    ## jimenezsosa (C)
+    ## Jorge-Mutonen (C)
+    ## Mangoland (M)
+    ## maritzafg (M)
+    ## merali-rosario (C)
+    ## ramosramos1886 (C)
+    ## sanchez26 (M)
+    ## victorcabsid (C)
+    ## yanderlin (C)
 
 ``` r
 write(usrgh, 'suscripciones_github.txt')
