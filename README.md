@@ -58,9 +58,9 @@ cat(
 )
 ```
 
-    ## En fecha/hora: Sun Aug 25 19:51:45 2019, aparecían como registradas
+    ## En fecha/hora: Mon Aug 26 12:45:42 2019, aparecían como registradas
     ## las siguientes cuentas como miembros/as o colaboradores externos/as: 
-    ## AbigailCP (C)
+    ## AbigailCP (M)
     ## BidelkisCastillo (C)
     ## dahianagb07 (M)
     ## enrique193 (M)
@@ -68,7 +68,7 @@ cat(
     ## geofis (M)
     ## hoyodepelempito (M)
     ## jimenezsosa (C)
-    ## Jorge-Mutonen (C)
+    ## Jorge-Mutonen (M)
     ## Mangoland (M)
     ## maritzafg (M)
     ## merali-rosario (C)
