@@ -58,24 +58,25 @@ cat(
 )
 ```
 
-    ## En fecha/hora: Mon Aug 26 12:45:42 2019, aparecían como registradas
+    ## En fecha/hora: Thu Aug 29 11:30:47 2019, aparecían como registradas
     ## las siguientes cuentas como miembros/as o colaboradores externos/as: 
     ## AbigailCP (M)
-    ## BidelkisCastillo (C)
+    ## BidelkisCastillo (M)
     ## dahianagb07 (M)
+    ## emdilone (M)
     ## enrique193 (M)
     ## Erasbel05 (C)
     ## geofis (M)
     ## hoyodepelempito (M)
-    ## jimenezsosa (C)
+    ## jimenezsosa (M)
     ## Jorge-Mutonen (M)
     ## Mangoland (M)
     ## maritzafg (M)
     ## merali-rosario (C)
-    ## ramosramos1886 (C)
+    ## ramosramos1886 (M)
     ## sanchez26 (M)
-    ## victorcabsid (C)
-    ## yanderlin (C)
+    ## victorcabsid (M)
+    ## yanderlin (M)
 
 ``` r
 write(usrgh, 'suscripciones_github.txt')
