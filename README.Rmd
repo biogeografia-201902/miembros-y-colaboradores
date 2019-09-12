@@ -51,6 +51,15 @@ cat(
 write(usrgh, 'suscripciones_github.txt')
 ```
 
+# Actividad (12/09/19)
+```{r}
+usrghact <- c("AbigailCP", "BidelkisCastillo", "dahianagb07",
+               "emdilone", "enrique193", "jimenezsosa",
+               "Jorge-Mutonen", "JuanJoseGH06",
+               "Mangoland", "maritzafg", "yanderlin")
+write(usrghact, 'suscripciones_github_actividad.txt')
+```
+
 ```{r, eval = F, echo = F}
 rmarkdown::render('README.Rmd')
 ```
