@@ -58,7 +58,7 @@ cat(
 )
 ```
 
-    ## En fecha/hora: Tue Sep  3 11:27:50 2019, aparecían como registradas
+    ## En fecha/hora: Thu Sep 12 11:41:27 2019, aparecían como registradas
     ## las siguientes cuentas como miembros/as o colaboradores externos/as: 
     ## AbigailCP (M)
     ## BidelkisCastillo (M)
@@ -81,4 +81,24 @@ cat(
 
 ``` r
 write(usrgh, 'suscripciones_github.txt')
+```
+
+Actividad (12/09/19)
+====================
+
+``` r
+usrghact <- c("AbigailCP", "BidelkisCastillo", "dahianagb07",
+               "emdilone", "enrique193", "jimenezsosa",
+               "Jorge-Mutonen", "JuanJoseGH06",
+               "Mangoland", "maritzafg", "yanderlin")
+usrghact
+```
+
+    ##  [1] "AbigailCP"        "BidelkisCastillo" "dahianagb07"     
+    ##  [4] "emdilone"         "enrique193"       "jimenezsosa"     
+    ##  [7] "Jorge-Mutonen"    "JuanJoseGH06"     "Mangoland"       
+    ## [10] "maritzafg"        "yanderlin"
+
+``` r
+write(usrghact, 'suscripciones_github_actividad.txt')
 ```

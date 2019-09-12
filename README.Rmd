@@ -57,6 +57,7 @@ usrghact <- c("AbigailCP", "BidelkisCastillo", "dahianagb07",
                "emdilone", "enrique193", "jimenezsosa",
                "Jorge-Mutonen", "JuanJoseGH06",
                "Mangoland", "maritzafg", "yanderlin")
+usrghact
 write(usrghact, 'suscripciones_github_actividad.txt')
 ```
 
